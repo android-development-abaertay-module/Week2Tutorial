@@ -58,6 +58,8 @@ public class MainActivity extends AppCompatActivity implements View.OnTouchListe
 
     @Override
     public boolean onTouch(View v, MotionEvent event) {
+        gestureScanner.onTouchEvent(event);
+
         switch (v.getId()) {
             case R.id.backgroundLayoutId:
                 setBackgroudColour_Touch(v, event);
@@ -95,7 +97,6 @@ public class MainActivity extends AppCompatActivity implements View.OnTouchListe
 
     @Override
     public boolean onTouchEvent (MotionEvent event){
-        gestureScanner.onTouchEvent(event);
 
         switch (event.getAction()) {
             case (MotionEvent.ACTION_DOWN):
