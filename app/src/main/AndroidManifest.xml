@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.bodovix.week2tutorial">
+    package="com.example.week2tutorial">
 
     <application
         android:allowBackup="true"

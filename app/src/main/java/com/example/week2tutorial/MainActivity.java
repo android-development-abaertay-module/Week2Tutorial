@@ -1,4 +1,5 @@
-package com.bodovix.week2tutorial;
+package com.example.week2tutorial;
+
 
 import android.graphics.Color;
 import android.support.constraint.ConstraintLayout;
