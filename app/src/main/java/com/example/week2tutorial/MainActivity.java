@@ -3,11 +3,8 @@ package com.example.week2tutorial;
 
 import android.graphics.Color;
 import android.support.constraint.ConstraintLayout;
-import android.support.v4.view.GestureDetectorCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.text.Layout;
-import android.text.method.KeyListener;
 import android.util.Log;
 import android.view.GestureDetector;
 import android.view.KeyEvent;
@@ -15,7 +12,6 @@ import android.view.MotionEvent;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -62,7 +58,7 @@ public class MainActivity extends AppCompatActivity implements View.OnTouchListe
 
         switch (v.getId()) {
             case R.id.backgroundLayoutId:
-                setBackgroudColour_Touch(v, event);
+                setBackGroundColour_Touch(v, event);
                 break;
             case R.id.btn1:
                 setButtonColour_Touch(v, event);
@@ -84,7 +80,7 @@ public class MainActivity extends AppCompatActivity implements View.OnTouchListe
         }
     }
 
-    private void setBackgroudColour_Touch (View v, MotionEvent event){
+    private void setBackGroundColour_Touch(View v, MotionEvent event){
             float eventX = event.getX();
             float eventY = event.getY();
             float height = backgrundLayout.getHeight();
