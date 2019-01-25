@@ -70,6 +70,7 @@ public class MainActivity extends AppCompatActivity implements View.OnTouchListe
 
     private void setButtonColour_Touch(View v, MotionEvent event) {
         switch (event.getAction()) {
+            //move down
             case (MotionEvent.ACTION_DOWN):
                 btn1.setBackgroundColor(getResources().getColor(R.color.red));
                 break;
